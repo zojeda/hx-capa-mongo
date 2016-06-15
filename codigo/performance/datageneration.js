@@ -8,9 +8,9 @@ var monthList = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
 var yearList = [2001, 2002, 2003, 2004, 1989, 1990, 1998, 1984, 1932, 1915, 1923];
 var occipationList = ['Plomero', 'Arquitecto', 'Mecanico', 'Ing en Sistemas', 'Astronauta', 'Contratista', 'RRHH', 'Artista Independiente', 'Abogado', 'Cronista de Deportes', 'Policia', 'Lic en Turismo'];
 var amountOfPeopleToBeCreated = 2000;
-var amountOfLoops = 1000;
+var amountOfLoops = 30;
 
-var databaseUrl = 'mongodb://mongodb.mvargas:27017/DB_PERFORMANCE_TEST';
+var databaseUrl = 'mongodb://mongodb/DB_PERFORMANCE_TEST';
 var collectionName = 'DB_TEST_NOT_INDEXED';
 
 var chooseItemFromList = function(list) {

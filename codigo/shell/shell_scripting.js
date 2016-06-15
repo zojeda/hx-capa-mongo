@@ -1,6 +1,6 @@
 // DOC: https://docs.mongodb.com/manual/tutorial/write-scripts-for-the-mongo-shell/
 
-var conn = new Mongo('mongodb.mvargas');
-var db = conn.getDB("shell_db");
+var conn = new Mongo('mongodb');
+var db = conn.getDB("test"); //creada usando importdb.sh
 
-db.getCollectionNames();
+printjson(db.restaurants.findOne({}));

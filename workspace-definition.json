@@ -18,6 +18,12 @@
         "description": "Cloud9 IDE",
         "port": 8181,
         "type": "web-application"
+      },
+      "mongoclient": {
+        "image": "rsercano/mongoclient",
+        "description": "MongoClient",
+        "port": 3000,
+        "type": "web-application"
       }
     },
     "services": {

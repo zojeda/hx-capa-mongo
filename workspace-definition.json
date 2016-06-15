@@ -3,7 +3,6 @@
     "image": "zojeda/mongo-training",
     "code": {
       "path": "/capacitacion-mongo",
-      "bindToHostPath": "./",
       "provisions": [
         {
           "name": "fsCopy",

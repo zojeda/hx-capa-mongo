@@ -4,9 +4,10 @@
     "code": {
       "path": "/capacitacion-mongo",
       "bindToHostPath": "./",
-      "provision": [
+      "provisions": [
         {
-          "fs-copy": {
+          "name": "fsCopy",
+          "params": {
             "path": "./"
           }
         }
@@ -16,7 +17,6 @@
       "cloud9": {
         "command": "node /cloud9/server.js --listen 0.0.0.0 -a : -w /capacitacion-mongo",
         "description": "Cloud9 IDE",
-        "icon": "<i class=\"{{details.style}}\"></i>",
         "port": 8181,
         "type": "web-application"
       }

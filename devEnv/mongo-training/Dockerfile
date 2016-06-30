@@ -15,7 +15,7 @@ RUN apt-get update && apt-get install -y \
 #Install NodeJS
 RUN curl -sL https://deb.nodesource.com/setup_6.x | bash - && apt-get install -y nodejs
 
-RUN git clone git://github.com/c9/core.git cloud9 && \
+RUN git clone https://github.com/c9/core.git cloud9 && \
 		cd cloud9 && ./scripts/install-sdk.sh && apt-get clean && rm -rf /var/lib/apt/lists
     
 
